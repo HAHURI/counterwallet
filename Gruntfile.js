@@ -25,7 +25,7 @@ module.exports = function (grunt) {
                 files: [
                     {cwd: 'src/', src: 'index.html', dest: buildDir, expand: true},
                     {cwd: 'src/pages/', src: '*.html', dest: buildDir+'pages/', expand: true},
-                    {cwd: 'src/locales/en', src: '*.json', dest: buildDir+'locales/en', expand: true}
+                    {cwd: 'src/locales/ja', src: '*.json', dest: buildDir+'locales/ja', expand: true}
                 ]
             },
             copy: {
